@@ -40,6 +40,8 @@ namespace ClassTestApp
             noname.Meow();
             noname.Sleep();
 
+            
+
             var list = (First :"Cat", Second :"Dog", "Pig",55);
             Console.Write($"튜플 첫번째 :{list.Item1}");
             Console.Write($"튜플 두번째 :{list.Item2}");
